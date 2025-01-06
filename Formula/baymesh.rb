@@ -136,6 +136,6 @@ class Baymesh < Formula
   end
 
   test do
-    assert_match "baymesh", shell_output("baymesh")
+    assert_match "baymesh", shell_output("#{bin}/baymesh")
   end
 end

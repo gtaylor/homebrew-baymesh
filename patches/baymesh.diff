@@ -37,6 +37,6 @@ index 36ba669..bee2fc2 100644
 -    # The installed folder is not in the path, so use the entire path to any
 -    # executables being tested: `system bin/"program", "do", "something"`.
 -    system "false"
-+    assert_match "baymesh", shell_output("baymesh")
++    assert_match "baymesh", shell_output("#{bin}/baymesh")
    end
  end
