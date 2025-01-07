@@ -3,8 +3,8 @@ class Baymesh < Formula
 
   desc "Command-line and library for members of Bayme.sh"
   homepage "https://github.com/gtaylor/baymesh-cli"
-  url "https://files.pythonhosted.org/packages/e7/19/fad6f32d430ac1dc44d6cb49cd4245fdb51b840c338e092489463ba50635/baymesh-0.3.3.tar.gz"
-  sha256 "a279548dcb5dcceac4c4cf344fcf9fcc3bd32b1f90333543d4f25d5f707e6442"
+  url "https://files.pythonhosted.org/packages/b1/14/43959477031ec5a76dc7fdebea84a51ea097710e85e91e37c3fee24af41a/baymesh-0.5.1.tar.gz"
+  sha256 "c35fdb21b04afa79f10dcc06da8c779324046acf23dcc42ffb1d62b94ba3a716"
   license "GPL-3.0-only"
 
   depends_on "rust" => :build
@@ -34,6 +34,11 @@ class Baymesh < Formula
   resource "click" do
     url "https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz"
     sha256 "ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a"
+  end
+
+  resource "dbus-fast" do
+    url "https://files.pythonhosted.org/packages/1f/91/b04e2dca706bddcd419352b5f623e8860c04adf2dd6ceef6116df4de4f6a/dbus_fast-2.24.4.tar.gz"
+    sha256 "58f97e8342d6cd11ebb2c8ac959c5bb342eb83e29180528690b323a5a5def41c"
   end
 
   resource "idna" do
@@ -69,26 +74,6 @@ class Baymesh < Formula
   resource "pydantic-settings" do
     url "https://files.pythonhosted.org/packages/73/7b/c58a586cd7d9ac66d2ee4ba60ca2d241fa837c02bca9bea80a9a8c3d22a9/pydantic_settings-2.7.1.tar.gz"
     sha256 "10c9caad35e64bfb3c2fbf70a078c0e25cc92499782e5200747f942a065dec93"
-  end
-
-  resource "pyobjc-core" do
-    url "https://files.pythonhosted.org/packages/5d/07/2b3d63c0349fe4cf34d787a52a22faa156225808db2d1531fe58fabd779d/pyobjc_core-10.3.2.tar.gz"
-    sha256 "dbf1475d864ce594288ce03e94e3a98dc7f0e4639971eb1e312bdf6661c21e0e"
-  end
-
-  resource "pyobjc-framework-cocoa" do
-    url "https://files.pythonhosted.org/packages/39/41/4f09a5e9a6769b4dafb293ea597ed693cc0def0e07867ad0a42664f530b6/pyobjc_framework_cocoa-10.3.2.tar.gz"
-    sha256 "673968e5435845bef969bfe374f31a1a6dc660c98608d2b84d5cae6eafa5c39d"
-  end
-
-  resource "pyobjc-framework-corebluetooth" do
-    url "https://files.pythonhosted.org/packages/13/ca/35d205c3e153e7bc59a417560a45e27a2410439e6f78390f97c1a996c922/pyobjc_framework_corebluetooth-10.3.2.tar.gz"
-    sha256 "c0a077bc3a2466271efa382c1e024630bc43cc6f9ab8f3f97431ad08b1ad52bb"
-  end
-
-  resource "pyobjc-framework-libdispatch" do
-    url "https://files.pythonhosted.org/packages/4d/12/a908f3f94952c8c9e3d6e6bd425613a79692e7d400557ede047992439edc/pyobjc_framework_libdispatch-10.3.2.tar.gz"
-    sha256 "e9f4311fbf8df602852557a98d2a64f37a9d363acf4d75634120251bbc7b7304"
   end
 
   resource "pypubsub" do
