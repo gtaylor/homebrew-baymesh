@@ -3,8 +3,8 @@ class Meshtastic < Formula
 
   desc "Python client for use with Meshtastic devices"
   homepage "https://pypi.org/project/meshtastic/"
-  url "https://files.pythonhosted.org/packages/a1/3a/39d43c11b154f8fcd608ae967cc959ab94acca89c9f2c1b59abe9bf02ea8/meshtastic-2.6.1.tar.gz"
-  sha256 "70b1a6fd6d9119708a76605e391797a567ab2b5d05596cd5f0fd6443da5624ac"
+  url "https://files.pythonhosted.org/packages/88/f7/f0696714d2a80aad4255be0bf7148840b22c275e3d11d82266c7f73cbbb6/meshtastic-2.6.2.tar.gz"
+  sha256 "dd1b9ed078f1f587ee05dfe0f0ea09ca930ba1c7fed9b91032de95545d330707"
   license "GPL-3.0-only"
 
   depends_on "libyaml"
@@ -86,8 +86,8 @@ class Meshtastic < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/aa/63/e53da845320b757bf29ef6a9062f5c669fe997973f966045cb019c3f4b66/urllib3-2.3.0.tar.gz"
-    sha256 "f8c5449b3cf0861679ce7e0503c7b44b5ec981bec0d1d3795a07f1ba96f0204d"
+    url "https://files.pythonhosted.org/packages/8a/78/16493d9c386d8e60e442a35feac5e00f0913c0f4b7c217c11e8ec2ff53e0/urllib3-2.4.0.tar.gz"
+    sha256 "414bc6535b787febd7567804cc015fee39daab8ad86268f1310a9250697de466"
   end
 
   def install
