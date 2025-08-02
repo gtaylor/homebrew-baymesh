@@ -3,8 +3,8 @@ class Meshtastic < Formula
 
   desc "Python client for use with Meshtastic devices"
   homepage "https://pypi.org/project/meshtastic/"
-  url "https://files.pythonhosted.org/packages/a7/88/6e94dc64d7e059ba89bb507d975a22326d9dec1e525a0f01e4f5a6d958e3/meshtastic-2.6.4.tar.gz"
-  sha256 "308ca54b666b680499e3025bbff50c1f40fe60a31c3ab9982a44ddeae2e9a012"
+  url "https://files.pythonhosted.org/packages/2b/02/61390fde10854f70e01c2fe6af26b754c75b27ea789288603552669c0341/meshtastic-2.7.0.tar.gz"
+  sha256 "e963a9b5aedf1151a1c1cfa3954b037c63c4b016ac7893c2997c12378c1529f1"
   license "GPL-3.0-only"
 
   depends_on "libyaml"
@@ -16,8 +16,8 @@ class Meshtastic < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/73/f7/f14b46d4bcd21092d7d3ccef689615220d8a08fb25e564b65d20738e672e/certifi-2025.6.15.tar.gz"
-    sha256 "d747aa5a8b9bbbb1bb8c22bb13e22bd1f18e9796defa16bab421f7f7a317323b"
+    url "https://files.pythonhosted.org/packages/b3/76/52c535bcebe74590f296d6c77c86dabf761c41980e1347a2422e4aa2ae41/certifi-2025.7.14.tar.gz"
+    sha256 "8ea99dbdfaaf2ba2f9bac77b9249ef62ec5218e7c2b2e903378ed5fccf765995"
   end
 
   resource "charset-normalizer" do
@@ -61,8 +61,8 @@ class Meshtastic < Formula
   end
 
   resource "pypubsub" do
-    url "https://files.pythonhosted.org/packages/1a/41/a0aceb552d8ec63bb1e8223d130f9dd0f736470036d75d708183b104a2cb/Pypubsub-4.0.3-py3-none-any.whl"
-    sha256 "7f716bae9388afe01ff82b264ba8a96a8ae78b42bb1f114f2716ca8f9e404e2a"
+    url "https://files.pythonhosted.org/packages/23/64/e7907a632cfbd76fd17e86ed6279422345958cf9fdc8216d95d13d9fee1b/pypubsub-4.0.3.tar.gz"
+    sha256 "32d662de3ade0fb0880da92df209c62a4803684de5ccb8d19421c92747a258c7"
   end
 
   resource "pyserial" do
